@@ -1,0 +1,21 @@
+button
+{
+border:1px solid;
+border-radius:20px;
+background:-webkit-linear-gradient(#4f4f4f, #ffffff);
+box-shadow:10px 10px 5px #888888;
+}
+
+#navigation-bar li {
+  display: inline;
+  float: left;
+}
+#navigation-bar li a {
+  width: 1em;
+  padding: 0.5em 1em;
+  text-decoration: blink;
+}
+#navigation-bar li a:hover {
+  text-decoration: underline;
+} 
+

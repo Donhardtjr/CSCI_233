@@ -1,0 +1,15 @@
+button
+{
+border:2px solid;
+border-radius:5px;
+-moz-border-radius:25px;
+background:-moz-linear-gradient(100% 100% 90deg, #4f4f4f, #ffffff);
+background:-webkit-linear-gradient(#4f4f4f, #ffffff);
+box-shadow:10px 10px 5px #888888;
+
+transition: width 2s;
+-moz-transition: width 2s; /* Firefox 4 */
+-webkit-transition: width 2s; /* Safari and Chrome */
+-o-transition: width 2s; /* Opera */
+ 
+}

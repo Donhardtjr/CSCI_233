@@ -1,0 +1,27 @@
+button
+{
+margin-left:30px;
+height:30px;
+border:1px solid;
+border-radius:20px;
+background:#ffffff;
+box-shadow:10px 10px 5px #888888;
+color:#008080;
+font-size:12pt;
+}
+
+
+
+#navigation-bar li {
+  display: inline;
+  float: left;
+}
+#navigation-bar li a {
+  width: 1em;
+  padding: 0.5em .5em;
+  text-decoration: blink;
+}
+#navigation-bar li a:hover {
+  text-decoration: underline;
+} 
+
