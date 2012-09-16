@@ -13,8 +13,6 @@
 		{
 			var x=document.getElementsByClassName("ageClass")[0].style.display="inline";
 			var y=document.getElementsByClassName("ageClass")[1];
-			
-			
 		}
 		function displayDate()
 		{
@@ -30,21 +28,13 @@
 				document.getElementById("submit").innerHTML = "Changed!!!";
 			}
 			else
-			{
-				alert("Your request is being processed.  Please wait..");
-				document.write(firstname,lastname,sex,occupation,email,reason);
+			{				
+				firstname = "tex";
+				alert(firstname);
+				var holdText=(document.getElementsByName("firstname"));
+				document.write(holdText);
 			}
 		}
-		function resetValues()
-		{
-			firstname="";
-			lastname="";
-			sex="";
-			occupation="";
-			email="";
-			reason="";
-		}
-		
 	</script>
 </head>
 
@@ -73,7 +63,7 @@
 	</div>
 	<div class="innerRightCol">
 				<input type="text" name="firstname" style="width:300px" size="40" /><br />
-				<input type="text" name="lastname" style="width:300px" size="40" /><br /><br />
+				<input id="lName" type="text" name="lastname" style="width:300px" size="40" /><br /><br />
 				<input type="radio" name="sex" value="male" />   Male<br />
 				<input type="radio" name="sex" value="female" />   Female<br />
 				<input type="radio" name="age" value="under21" onClick="checkAge()">   Under 21</input>
@@ -88,7 +78,7 @@
 	</div>
 	<div class="lowerBox">
 				<button id="submit" type="button" onclick="submitButton()"><b>Submit</b></button>
-				<button type="reset" onClick="resetValues()"><b>Reset</b></button>
+				<button type="reset" ><b>Reset</b></button>
 				<button id="displayDt" type="button" onclick="displayDate()"><b>Display Date</b></button>
 	</div>
 	</form>
