@@ -7,6 +7,6 @@
 </head>
 <body>
 	<h1>Get Text</h1>
-	Text: <%= JavaPackage.ReturnTextAndHTML.getText() %>
+	
 </body>
 </html>
