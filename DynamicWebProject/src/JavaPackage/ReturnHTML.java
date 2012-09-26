@@ -15,7 +15,7 @@ public class ReturnHTML extends HttpServlet {
 			response.setContentType("text/html");
 			PrintWriter output = response.getWriter();
     		String title = "Ron's first JSP app";
-    		String docType = "<!DOCTYPE HTML PUBLIC>\n";
+    		String docType = "<!DOCTYPE HTML>\n";
     		output.println(docType +
     				"<HTML>\n" +
     	 			"<HEAD><TITLE>" + title + "<TITLE></HEAD>\n" +
