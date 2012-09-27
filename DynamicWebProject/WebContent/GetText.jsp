@@ -7,6 +7,7 @@
 </head>
 <body>
 	<h1>Get Text</h1>
+	I jb diojhp will display text from the servlet: <jsp:include page="/returntext" />
 	
 </body>
 </html>

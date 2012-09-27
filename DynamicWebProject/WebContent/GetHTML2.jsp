@@ -11,7 +11,7 @@
 
 	<h1>Get HTML</h1>
 	
-	<form action="http://Users/rondonhardt/Documents/CSCI_233/DynamicWebProject/src/JavaPackage.ReturnHTML.java" method="post">
+	<form action="returnhtml" method="post">
 		<input type="submit" value="Submit" />
 	</form>
 
