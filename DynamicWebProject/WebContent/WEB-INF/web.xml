@@ -11,11 +11,11 @@
   </servlet-mapping>
   <servlet>
     <servlet-name>ReturnHTML</servlet-name>
-    <servlet-class>JavaPackage.ReturnHTML</servlet-class>
+    <servlet-class>javapackage.ReturnHTML</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>ReturnText</servlet-name>
-    <servlet-class>JavaPackage.ReturnText</servlet-class>
+    <servlet-class>javapackage.ReturnText</servlet-class>
   </servlet>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>

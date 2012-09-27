@@ -5,4 +5,4 @@
  * @author rondonhardt
  *
  */
-package JavaPackage;
+package javapackage;

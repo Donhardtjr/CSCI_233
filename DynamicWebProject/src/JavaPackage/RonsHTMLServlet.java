@@ -1,4 +1,4 @@
-package JavaPackage;
+package javapackage;
 
 import java.io.*;
 import java.io.IOException;

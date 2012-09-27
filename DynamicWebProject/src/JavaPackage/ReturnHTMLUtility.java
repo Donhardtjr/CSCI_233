@@ -1,4 +1,4 @@
-package JavaPackage;
+package javapackage;
 
 public class ReturnHTMLUtility {
 	public static final String DOCTYPE =
